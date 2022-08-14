@@ -1,0 +1,29 @@
+*{
+    font-family: poppins;
+
+}
+a{
+    color: white !important;
+}
+.navlogo{
+    display: none;
+}
+.hero{
+    max-height: 90vh;
+    background-color: red;
+}
+img{
+    max-height: 90vh;
+}
+ 
+@media only screen and (max-width:730px) {
+    .logo{
+        display: none;
+    }
+    .navlogo{
+        display:block;
+    }
+    .mynav{
+        text-align: center;
+    }
+}
